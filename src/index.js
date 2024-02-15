@@ -14,8 +14,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}></Route>
-        <Route path="login" element={<AuthCard
+        {/* <Route path="/" element={<App />}></Route> */}
+        <Route path="/" element={<AuthCard
           title="Login to Your Account"
           emailLabel="Email"
           passwordLabel="Password"
